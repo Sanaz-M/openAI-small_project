@@ -67,7 +67,7 @@ function App() {
       <div>
         <button onClick={callOpenAIAPI}>Get The Tweet Sentiment From OpenAI API</button>
         {sentiment !== "" ?
-          <h3>This Tweet Is: {sentiment}</h3>
+          <h4><strong>This Tweet Is: {sentiment}</strong></h4>
           :
           null
         }
